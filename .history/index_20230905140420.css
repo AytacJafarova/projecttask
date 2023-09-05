@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 80px 135px 80px 135px;
+    background: #FDF0E9;
+    min-height: 100vh;
+}
+
+.container .about-area ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .about-area ul li {
+    width: 33.33%;
+    list-style-type: none;
+    border: 1px solid #F3D1BF;
+    padding: 32px 48px 38px 48px;
+}
+.container .about-area ul li:first-child {
+    border-radius: 6px 0px 0px 6px;
+
+}
+.container .about-area ul li:last-child {
+    border-radius: 0px 6px 6px 0px;
+
+}
+.container .about-area ul li .collaj{
+
+.container .about-area ul li .icon-area {
+    position: relative;
+
+}
+
+.container .about-area ul li .icon-area .oval-img img {
+    width: 64px;
+    height: 64px;
+    margin-right: 50px;
+}
+
+.container .about-area ul li .icon-area .phone img {
+    width: 24px;
+    height: 24px;
+}
+
+.container .about-area ul li .icon-area .phone {
+    position: absolute;
+    padding: 20px;
+}
+
+.container .about-area ul li .icon-area p {
+    margin-left: 20px;
+    color: var(--Text_Dark_Accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+}
+
+.container .about-area ul li h1 {
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 26px;
+}
+
+.container .contact-area {
+    border-radius: 6px;
+    background: #EF6D58;
+    padding: 94px 70px 80px 100px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contact-area .texts h1 {
+    color: var(--Text_Light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+.container .contact-area .texts p {
+    color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 470px;
+    height: 66px;
+    margin-top: 28px;
+}
+
+.container .contact-area .texts button {
+    color: black;
+    font-family: Epilogue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 1px 20px 1px 20px;
+    background-color: white;
+    margin-top: 34px;
+}
+
+.container .agency-area {
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .agency-area .links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.container .agency-area .links .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .agency-area .links .service {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .agency-area .links .h1 h1 {
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.container .agency-area .links .menu h1 {
+    color: var(--Text_Dark_Accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container .agency-area .links .menu a {
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.container .agency-area .links .service h1 {
+    color: var(--Text_Dark_Accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container .agency-area .links .service a {
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.container .agency-area .links .social img {
+    width: 160px;
+    height: 48px;
+}
+
+.container .border {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #F3D1BF;
+    margin-top: 68px;
+}
+
+.container .end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.container .end .copyright p {
+    color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.container .end .terms .texts a {
+    color: var(--Text_Dark, #391400);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+    margin-left: 68px;
+}
